@@ -7,9 +7,8 @@ public class CountryResponse {
     private String capitalName;
     private String independenceDate;
     private int yearsOfIndependency;
+    private int monthsOfIndependency;
     private int dayssOfIndependency;
-
-    
 
     public String getCountryName() {
         return this.countryName;
@@ -43,6 +42,14 @@ public class CountryResponse {
         this.yearsOfIndependency = yearsOfIndependency;
     }
 
+    public int getMonthsOfIndependency() {
+        return this.monthsOfIndependency;
+    }
+
+    public void setMonthsOfIndependency(int monthsOfIndependency) {
+        this.monthsOfIndependency = monthsOfIndependency;
+    }
+
     public int getDayssOfIndependency() {
         return this.dayssOfIndependency;
     }
@@ -50,6 +57,8 @@ public class CountryResponse {
     public void setDayssOfIndependency(int dayssOfIndependency) {
         this.dayssOfIndependency = dayssOfIndependency;
     }
+
+    
 
 
 }
