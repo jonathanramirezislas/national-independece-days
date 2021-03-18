@@ -12,9 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.time.Period;
 import java.util.Optional;
 
-/**
- * Author: VIP
- */
+
 @RestController()
 public class IndependencyController {
 
