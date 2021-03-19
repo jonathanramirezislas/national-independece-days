@@ -4,10 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import java.time.LocalDate;
 import java.time.Period;
-
-import static org.junit.jupiter.api.Assertions.*;
 
     
 public class CompareDatesTest {
@@ -21,6 +18,7 @@ public class CompareDatesTest {
         String fechaIndependencia = "27/02/1884";
 
         Period resultado = diferenciaEntreFechas.calculateYearsOfIndependency(fechaIndependencia);
+
 
         Assertions.assertEquals(0,resultado.getMonths() );
         Assertions.assertEquals(19,resultado.getDays() );
